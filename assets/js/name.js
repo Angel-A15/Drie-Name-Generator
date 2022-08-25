@@ -6,4 +6,4 @@ function searchBtn(event) {
     //var 
 }
 
-button.addEventListener("click", searchBtn);
+// button.addEventListener("click", searchBtn);
