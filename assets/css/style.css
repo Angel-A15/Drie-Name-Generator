@@ -1,0 +1,61 @@
+* {
+    margin: 10px;
+
+}
+
+body {
+    margin: 20px;
+}
+
+.navbar-end button {
+    background-color: rgb(255, 184, 3);
+    margin: 10px;
+}
+
+main {
+    margin: 60px;
+    height: 740px;
+}
+
+.per {
+    max-width: 400px;
+    position: absolute;
+    left: 55%;
+    top:23%;
+
+}
+
+#cer {
+
+
+
+}
+
+#xer {
+
+    top: 58%;
+    
+}
+#ser {
+    margin-right:70%;
+    margin: 60px;
+    word-spacing: 5px;
+    padding: 30px;
+    max-width: 35%;
+    margin-top: 80px;
+
+}
+
+.button {
+    background-color: rgb(255, 184, 3);
+}
+
+.control {
+    margin-left: 100px;
+    bottom:10px;
+    padding: 20px;
+}
+
+section {
+    border-radius: 10px;
+}

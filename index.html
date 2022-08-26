@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Gen</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body >
+<body class="has-background-black">
 
-    <nav class="navbar has-shadow">
+    <nav class="navbar has-shadow has-background-dark">
 
 
         <div class="navbar-brand">
 
         </div>
         <div class="navbar-menu" id="nav-links">
-            <h1 class="title has-text-centered">Random Name Generator</h1>
+            <h1 class="title has-text-centered has-text-white">Random Name Generator</h1>
             <div class="navbar-end">
                 
-                <button class="button is-warning is-normal is-disabled">Button</button>
-                <button class="button is-warning is-normal is-disabled">Button</button>
-                <button class="button is-warning is-normal is-disabled">Button</button>
-                <button class="button is-warning is-normal is-disabled">Button</button>
+                <button class="button  is-normal is-disabled">Button</button>
+                <button class="button  is-normal is-disabled">Button</button>
+                <button class="button  is-normal is-disabled">Button</button>
+                <button class="button  is-normal is-disabled">Button</button>
             </div>
 
         </div>
@@ -35,72 +35,86 @@
     <main>
 
         <!--will hold form to submit-->
-        <section>
-            <h2 class="is-size-4 mt-5">Type of Name</h2>
-            <div class="dropdown is-active">
-                <div class="dropdown-trigger">
-                    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                        <span>Dropdown button</span>
-                        <span class="icon is-small">
-                            <i class="fas fa-angle-down" aria-hidden="true"></i>
-                        </span>
-                    </button>
-                </div>
-            </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                    <a href="#" class="dropdown-item">
-                        dropdown item
-                    </a>
-                    <a class="dropdown-item">
-                        another item
-                    </a>
-                    <a href="#" class="dropdown-item is-active">
-                        active dropdown item
-                    </a>
-                    <a href="#" class="dropdown-item">
-                        Other dropdown item
-                    </a>
-                    <hr class="dropdown-divider">
-                    <a href="#" class="dropdown-item">
-                        With a divider
-                    </a>   
-                </div>
-            </div>
+        <section id="ser" class="has-text-warning has-background-dark">
 
-            <h2 class="is-size-4 ">Gender</h2>
+            <h2 class="is-size-4 ">Type of Name :
+                <div class="dropdown is-active">
+                    <div class="dropdown-trigger">
+                        <button class="button ml-5" aria-haspopup="true" aria-controls="dropdown-menu">
+                            <span>Dropdown button</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                        <!-- <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                Dropdown item
+                            </a>
+
+                            <hr class="dropdown-divider">
+
+                        </div> -->
+                    </div>
+                </div>
+            </h2>
+            
+
+            <h2 class="is-size-4 mt-6">Gender :</h2>
+            
             <div class="control">
+
                 <label class="radio">
                     <input type="radio" name="answer">
                     Male
                 </label>
-            </div>
             
-            <div class="control">
                 <label class="radio">
                     <input type="radio" name="answer">
                     Nuetral
                 </label>
-            </div>
-
-            <div class="control">
+            
                 <label class="radio">
                     <input type="radio" name="answer">
                     Female
                 </label>
+                
             </div>
+            <h2 class="is-size-4">Country of Origin :
+                <div class="dropdown is-active ">
+                    <div class="dropdown-trigger">
+                        <button class="button " aria-haspopup="true" aria-controls="dropdown-menu">
+                            <span>Dropdown button</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                        <!-- <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                Dropdown item
+                            </a>
 
-            <h2 class="is-size-4">Country of Origin</h2>
+                            <hr class="dropdown-divider">
+
+                        </div> -->
+                    </div>
+                </div>
+            </h2>
             
+            <div>
+                <input class="button is-normal is-active mt-6 ml-5" type="submit" value="Submit">
+            </div>
             
-            <input class="button is-warning is-small is-active" type="submit" value="Submit">
         </section>
 
         <!--will hold the name generated-->
-        <section >
-            <div class="card ">
+        <section id="cer" class="per">
+            <div class="card has-background-dark">
                 <div class="card-header-title ">
-                    <h2 class="is-size-3 ">Generated Name:</h2>
+                    <h2 class="is-size-3 has-text-white">Generated Name :</h2>
                 </div>
                 <div class="card-content">
 
@@ -111,10 +125,10 @@
         </section>
 
         <!--will hold the name meaning-->
-        <section>
-            <div class="card is-size-3">
-                <div class="card-header-title">
-                    <h2>Meaning:</h2>
+        <section id="xer" class="per">
+            <div class="card is-size-3 has-background-dark">
+                <div class="card-header-title has-text-white">
+                    <h2>Meaning :</h2>
                 </div>
                 <div class="card-content">
 
