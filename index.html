@@ -39,7 +39,7 @@
 
             <h2 class="is-size-4 ">Type of Name :
 
-                <select class="drop is-size-5 has-text-centered">
+                <select class="drop is-size-6 has-text-centered" onmousedown="if(this.options.length>5){this.size=5;}">
                 <option value="">Type</option>
                 <option value="">option1</option>
                 <option value="">option2</option>
@@ -77,7 +77,7 @@
 
             <h2 class="is-size-4">Country of Origin :
 
-                <select name="Country" onmousedown="if(this.options.length>5){this.size=5;}" class="drop is-size-5">
+                <select class="drop is-size-6" name="Country" onmousedown="if(this.options.length>5){this.size=5;}" >
                 <option value="">Country</option>
                 <option value="">option1</option>
                 <option value="">option2</option>
@@ -85,13 +85,12 @@
                 <option value="">option1</option>
                 <option value="">option2</option>
                 <option value="">option3</option>
-                
                 </select>
 
             </h2>
             
-            <div>
-                <input class="button is-normal is-active mt-6 ml-5" type="submit" value="Submit">
+            <div >
+                <input id="sbmt" class="button is-normal is-active mt-6 ml-5" type="submit" value="Submit">
             </div>
             
         </section>

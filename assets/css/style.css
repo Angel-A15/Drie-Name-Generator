@@ -7,9 +7,14 @@ body {
     margin: 20px;
 }
 
+#sbmt{
+    height:32px;
+}
+
 .navbar-end button {
     background-color: rgb(255, 184, 3);
     margin: 10px;
+    height:30px;
 }
 
 main {
@@ -25,11 +30,6 @@ main {
 
 }
 
-#cer {
-
-
-
-}
 
 #xer {
 
@@ -62,6 +62,5 @@ section {
 
 .drop {
     background-color: rgb(255, 184, 3);
-    overflow-y:scroll;
 
 }
