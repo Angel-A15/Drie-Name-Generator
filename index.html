@@ -35,62 +35,57 @@
     <main>
 
         <!--will hold form to submit-->
-        <section id="ser" class="has-text-warning has-background-dark">
+        <section id="ser" class=" is-size-3 has-text-warning has-background-dark">
 
-            <h2 class="is-size-4 ">Type of Name :
-
-                <select class="drop is-size-6 has-text-centered" onmousedown="if(this.options.length>5){this.size=5;}">
+            <label for="Types">Type of Name :</label>
+            <select class="is-size-6 drop" name="Types" id="Types">
                 <option value="">Type</option>
-                <option value="">option1</option>
-                <option value="">option2</option>
-                <option value="">option3</option>
-                <option value="">option1</option>
-                <option value="">option2</option>
-                <option value="">option3</option>
-                </select>
+                <option value="">item</option>
+                <option value="">item</option>
+                <option value="">item</option>
+            </select>
 
 
-
-            </h2>
-
-
-            <h2 class="is-size-4 mt-6">Gender :</h2>
+            
             
             <div class="control">
 
-                <label class="radio">
-                    <input type="radio" name="answer">
-                    Male
-                </label>
-            
-                <label class="radio">
-                    <input type="radio" name="answer">
-                    Nuetral
-                </label>
-            
-                <label class="radio">
-                    <input type="radio" name="answer">
-                    Female
-                </label>
-                
+                <h2 class="is-size-3">Gender :
+                    <div class="is-size-5">
+                        <label class="radio ">
+                            <input type="radio" name="answer">
+                            Male
+                        </label>
+                    
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Nuetral
+                        </label>
+                    
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Female
+                        </label>
+                    </div>
+                </h2>
+                    
             </div>
+            
 
-            <h2 class="is-size-4">Country of Origin :
 
-                <select class="drop is-size-6" name="Country" onmousedown="if(this.options.length>5){this.size=5;}" >
+
+            <label for="countries">Country of Origin :</label>
+            <select class="is-size-6 drop" name="countires" id="countries">
                 <option value="">Country</option>
-                <option value="">option1</option>
-                <option value="">option2</option>
-                <option value="">option3</option>
-                <option value="">option1</option>
-                <option value="">option2</option>
-                <option value="">option3</option>
-                </select>
+                <option value="">item</option>
+                <option value="">item</option>
+                <option value="">item</option>
+            </select>
 
-            </h2>
+
             
             <div >
-                <input id="sbmt" class="button is-normal is-active mt-6 ml-5" type="submit" value="Submit">
+                <input id="sbmt" class="button is-normal is-active" type="submit" value="Submit">
             </div>
             
         </section>
