@@ -8,14 +8,19 @@
 
 }
 
+/* styles Html */
+html {
+    background-color: black;
+}
+
 /* styles body */
 body {
-    margin: 0px;
+    margin: 0px 0 0 0;
 }
 
 /* styles content below nav */
 main {
-    margin: 60px;
+    margin: 120px 0 1px 0;
     height: 740px;
 }
 
@@ -71,7 +76,7 @@ section {
 /* styles Generated Name/Meaning container */
 .per {
 
-    margin-left:40%;
+    margin-left:42%;
     word-spacing: 5px;
     position: absolute;
     top: 200px;
