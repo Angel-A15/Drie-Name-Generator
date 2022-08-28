@@ -53,6 +53,7 @@ section {
 
 /* styles "submit" button */
 #sbmt{
+    
     height:32px;
     margin: 100px 0 0 440px;
     background-color: var(--btn-color);
@@ -95,4 +96,7 @@ section {
     background-color: white;
     padding-bottom: 9px;
     margin-bottom: 100px;
+    border-bottom: 8px solid rgba(54, 54, 54);
+
 }
+
