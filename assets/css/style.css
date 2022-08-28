@@ -1,3 +1,7 @@
+:root {
+    --btn-color: rgb(255, 184, 3);
+}
+
 /*styles entire page */
 * {
     margin: 10px;
@@ -6,7 +10,7 @@
 
 /* styles body */
 body {
-    margin: 20px;
+    margin: 0px;
 }
 
 /* styles content below nav */
@@ -42,39 +46,48 @@ section {
     margin: 15px 0 0 80px;
 }
 
-/* styles Generated Name/Meaning container */
-.per {
-    max-width: 400px;
-    position: absolute;
-    left: 55%;
-    top:23%;
-
-}
-
-/* styles Meaning Container */
-#xer {
-    top: 58%;
-}
-
-
 /* styles "submit" button */
 #sbmt{
     height:32px;
     margin: 100px 0 0 440px;
-    background-color: rgb(255, 184, 3);
+    background-color: var(--btn-color);
     padding-bottom: 30px;
 }
 
 /* styles color of dropdown buttons */
 .drop {
-    background-color: rgb(255, 184, 3);
+    background-color: var(--btn-color);
     border-radius:5px;
 
 }
 
 /* styles navigation buttons */
 .navbar-end button {
-    background-color: rgb(255, 184, 3);
+    background-color: var(--btn-color);
     margin: 10px;
     height:30px;
+}
+
+/* styles Generated Name/Meaning container */
+.per {
+
+    margin-left:40%;
+    word-spacing: 5px;
+    position: absolute;
+    top: 200px;
+    width: 420px;
+
+}
+
+
+/* styles Meaning Container */
+#xer {
+    left: 30%;
+}
+
+/* styles bulma-card-content */
+.card-content{
+    background-color: white;
+    padding-bottom: 9px;
+    margin-bottom: 100px;
 }
