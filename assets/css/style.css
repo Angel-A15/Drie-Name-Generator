@@ -53,11 +53,11 @@ section {
 
 /* styles "submit" button */
 #sbmt{
-    
     height:32px;
     margin: 100px 0 0 440px;
     background-color: var(--btn-color);
     padding-bottom: 30px;
+
 }
 
 /* styles color of dropdown buttons */
@@ -100,3 +100,100 @@ section {
 
 }
 
+@media screen and (max-width: 1780px) {
+
+    /* styles "submit" button */
+    #sbmt{
+        height:32px;
+        margin: 100px 0 0 6px;
+        background-color: var(--btn-color);
+        padding-bottom: 30px;
+        position:static;
+    
+    }
+    /* styles the container of entire submit form */
+    #ser {
+        margin-right:70%;
+        margin: 60px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 105%;
+        text-align: center;
+
+    
+    }
+    
+    /* styles Generated Name/Meaning container */
+    .per {
+        margin: 0 10px 0 0;
+        top: 870px;
+        left:20px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 89%;
+
+    }
+
+
+    /* styles Meaning Container */
+    #xer {
+        margin: 0 10px 0 0;
+        top: 870px;
+        left:40%;
+        word-spacing: 2px;
+        padding: 30px;
+        width: 58%;
+
+    }
+    
+}
+
+@media screen and (max-width:896px) {
+    /* styles "submit" button */
+    #sbmt{
+        height:32px;
+        margin: 100px 0 0 0px;
+        background-color: var(--btn-color);
+        padding-bottom: 30px;
+        position:static;
+
+    }
+
+    #ser {
+        margin-right:70%;
+        margin: 60px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 105%;
+
+    
+    }
+    
+    /* styles Generated Name/Meaning container */
+    #zer {
+        margin: 0 10px 0 0;
+        top: 980px;
+        left:20px;
+        word-spacing: 2px;
+        padding: 30px;
+        width:840px;
+    }
+
+
+    /* styles Meaning Container */
+    #xer {
+        margin: 0 10px 0 0;
+        top: 1200px;
+        left:20px;
+        width: fit-content;
+        word-spacing: 2px;
+        padding: 30px;
+
+    }
+
+    .navbar{
+       margin:80px 0 0 40px 0;
+       height:fit-content;
+       font-Size:1px;
+    }
+}
