@@ -169,14 +169,14 @@ section {
     
     }
     
-    /* styles Generated Name/Meaning container */
+    /* styles Generated Name container */
     #zer {
         margin: 0 10px 0 0;
         top: 980px;
-        left:20px;
+        left:30px;
         word-spacing: 2px;
         padding: 30px;
-        width:840px;
+        width:1950px;
     }
 
 
@@ -184,7 +184,7 @@ section {
     #xer {
         margin: 0 10px 0 0;
         top: 1200px;
-        left:20px;
+        left:30px;
         width: fit-content;
         word-spacing: 2px;
         padding: 30px;
@@ -196,4 +196,11 @@ section {
        height:fit-content;
        font-Size:1px;
     }
+
+    /* styles radio content */
+    .radio {
+        margin: 15px 0 0 80px;
+        
+    }
+
 }
