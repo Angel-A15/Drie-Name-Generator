@@ -100,6 +100,7 @@ section {
 
 }
 
+
 @media screen and (max-width: 1780px) {
 
     /* styles "submit" button */
@@ -155,9 +156,28 @@ section {
     .country {
         margin: 0;
     }
+
+    /* styles navbar to display */
+    .navbar-menu {
+
+        display: block;
+        background-color: rgba(54, 54, 54);
+
+    }
+
+    /* styles navigation buttons */
+    #navBtn button{
+        background-color: aqua;
+        
+        
+        
+    }
+
+    
+    
 }   
 
-@media screen and (max-width:896px) {
+@media screen and (max-width:501px) {
 
     /* styles "submit" button */
     #sbmt{
@@ -202,13 +222,14 @@ section {
 
     }
 
-    .navbar{
-        
-    }
-
     /* styles radio content */
     .radio {
        margin: 0;
     }
 
+    /* styles navbar */
+    .navbar-menu {
+        display: block;
+        background-color:black;
+    }
 }
