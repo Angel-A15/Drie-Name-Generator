@@ -120,8 +120,6 @@ section {
         padding: 30px;
         max-width: 105%;
         text-align: center;
-
-    
     }
     
     /* styles Generated Name/Meaning container */
@@ -132,7 +130,6 @@ section {
         word-spacing: 2px;
         padding: 30px;
         max-width: 89%;
-
     }
 
 
@@ -144,7 +141,6 @@ section {
         word-spacing: 2px;
         padding: 30px;
         width: 58%;
-
     }
     
     /* styles radio content */
@@ -159,25 +155,27 @@ section {
 
     /* styles navbar to display */
     .navbar-menu {
-
         display: block;
         background-color: rgba(54, 54, 54);
-
     }
 
     /* styles navigation buttons */
     #navBtn button{
-        background-color: aqua;
-        
-        
-        
+        background-color:var(--btn-color);
+
+
     }
 
-    
+    /* styles the container holding the nav btns */
+    #navBtn {
+        display:flex;
+        justify-content: space-evenly;
+    }
     
 }   
 
 @media screen and (max-width:501px) {
+        
 
     /* styles "submit" button */
     #sbmt{
@@ -231,5 +229,8 @@ section {
     .navbar-menu {
         display: block;
         background-color:black;
+        border-top:11px solid rgba(54, 54, 54);
     }
+
+    
 }
