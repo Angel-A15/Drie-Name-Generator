@@ -10,17 +10,15 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="has-background-black">
+<body class="has-background-black" id="all">
 
     <nav class="navbar has-shadow has-background-dark">
 
-
-        <div class="navbar-brand">
-
-        </div>
         <div class="navbar-menu" id="nav-links">
+
             <h1 class="title has-text-centered has-text-white">Random Name Generator</h1>
-            <div class="navbar-end">
+            
+            <div id="navBtn" class="navbar-end">
                 
                 <button class="button  is-normal is-disabled">Button</button>
                 <button class="button  is-normal is-disabled">Button</button>
@@ -37,12 +35,10 @@
         <!--will hold form to submit-->
         <section id="ser" class=" is-size-3 has-text-white has-background-dark">
 
-            <label for="Types">Type of Name :</label>
+            <label for="Types">Language Type :</label>
             <select class="is-size-6 drop" name="Types" id="Types">
                 <option value="">Type</option>
-                <option value="">item</option>
-                <option value="">item</option>
-                <option value="">item</option>
+                <option value=""></option>
             </select>
 
 
@@ -73,34 +69,34 @@
             
 
 
-
-            <label for="countries">Country of Origin :</label>
-            <select class="is-size-6 drop" name="countires" id="countries">
-                <option value="">Country</option>
-                <option value="">item</option>
-                <option value="">item</option>
-                <option value="">item</option>
-            </select>
+            <div class="country">
+                <label for="countries">Country of Origin :</label>
+                <select class="is-size-6 drop" name="countires" id="countries">
+                    <option value="">Country</option>
+                    <option value=""></option>
+                </select>
+            </div>
 
 
             
-            <div >
+            <div class="fetchBtn">
                 <input id="sbmt" class="button is-normal is-active" type="submit" value="Submit">
             </div>
             
         </section>
 
         <!--will hold the name generated-->
-        <section class="per">
+        <section class="per" id="zer">
 
             <div class="card has-background-dark">
                 <div class="card-header-title ">
                     <h2 class="is-size-3 has-text-white">
-                        Generated Name :</h2>
+                        Generated Name :
+                    </h2>
                 </div>
 
                 <div class="card-content">
-                    <p>Lorem ipsum leo risus</p>
+                    <p></p>
                 </div>
 
                 
@@ -118,7 +114,7 @@
                 </div>
                 
                 <div class="card-content">
-                    <P>Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.</P>
+                    <P></P>
                 </div>
                 
             </div>

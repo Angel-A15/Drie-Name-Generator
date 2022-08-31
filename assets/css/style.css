@@ -8,14 +8,19 @@
 
 }
 
+/* styles Html */
+html {
+    background-color: black;
+}
+
 /* styles body */
 body {
-    margin: 0px;
+    margin: 0px 0 0 0;
 }
 
 /* styles content below nav */
 main {
-    margin: 60px;
+    margin: 120px 0 1px 0;
     height: 740px;
 }
 
@@ -52,6 +57,7 @@ section {
     margin: 100px 0 0 440px;
     background-color: var(--btn-color);
     padding-bottom: 30px;
+
 }
 
 /* styles color of dropdown buttons */
@@ -71,7 +77,7 @@ section {
 /* styles Generated Name/Meaning container */
 .per {
 
-    margin-left:40%;
+    margin-left:42%;
     word-spacing: 5px;
     position: absolute;
     top: 200px;
@@ -90,4 +96,141 @@ section {
     background-color: white;
     padding-bottom: 9px;
     margin-bottom: 100px;
+    border-bottom: 8px solid rgba(54, 54, 54);
+
+}
+
+
+@media screen and (max-width: 1780px) {
+
+    /* styles "submit" button */
+    #sbmt{
+        height:32px;
+        margin: 100px 0 0 6px;
+        background-color: var(--btn-color);
+        padding-bottom: 30px;
+        position:static;
+    
+    }
+    /* styles the container of entire submit form */
+    #ser {
+        margin-right:70%;
+        margin: 60px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 105%;
+        text-align: center;
+    }
+    
+    /* styles Generated Name/Meaning container */
+    .per {
+        margin: 0 10px 0 0;
+        top: 870px;
+        left:20px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 89%;
+    }
+
+
+    /* styles Meaning Container */
+    #xer {
+        margin: 0 10px 0 0;
+        top: 870px;
+        left:40%;
+        word-spacing: 2px;
+        padding: 30px;
+        width: 58%;
+    }
+    
+    /* styles radio content */
+    .radio {
+       margin: 0;
+    }
+
+    /*styles the container of country of origin content*/
+    .country {
+        margin: 0;
+    }
+
+    /* styles navbar to display */
+    .navbar-menu {
+        display: block;
+        background-color: rgba(54, 54, 54);
+    }
+
+    /* styles navigation buttons */
+    #navBtn button{
+        background-color:var(--btn-color);
+
+
+    }
+
+    /* styles the container holding the nav btns */
+    #navBtn {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+}   
+
+@media screen and (max-width:501px) {
+        
+
+    /* styles "submit" button */
+    #sbmt{
+        height:32px;
+        margin: 100px 0 0 0px;
+        background-color: var(--btn-color);
+        padding-bottom: 30px;
+        position:static;
+
+    }
+
+    /* styles the container of entire submit form */
+    #ser {
+        margin-right:70%;
+        margin: 60px;
+        word-spacing: 2px;
+        padding: 30px;
+        max-width: 105%;
+
+    
+    }
+    
+    /* styles Generated Name container */
+    #zer {
+        margin: 0 10px 0 0;
+        top: 980px;
+        left:30px;
+        word-spacing: 2px;
+        padding: 30px;
+        width:1950px;
+    }
+
+
+    /* styles Meaning Container */
+    #xer {
+        margin: 0 10px 0 0;
+        top: 1200px;
+        left:30px;
+        width: fit-content;
+        word-spacing: 2px;
+        padding: 30px;
+
+    }
+
+    /* styles radio content */
+    .radio {
+       margin: 0;
+    }
+
+    /* styles navbar */
+    .navbar-menu {
+        display: block;
+        background-color:black;
+        border-top:11px solid rgba(54, 54, 54);
+    }
+
+    
 }
