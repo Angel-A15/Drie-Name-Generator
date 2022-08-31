@@ -1,5 +1,3 @@
-# Drie-Name-Generator
-
 ## Project
 
 As a team of three developers, we recieved a request from a client to integrate an app 
@@ -33,3 +31,5 @@ such as:
 
 
 ## Link to Page
+=======
+>>>>>>> a8f1e9a623022be6b59eb60d1ffb3b8f3c868b30
