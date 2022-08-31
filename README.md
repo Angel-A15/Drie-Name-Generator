@@ -1,5 +1,3 @@
-# Drie-Name-Generator
-
 ## Project
 
 As a team of three developers, we recieved a request from a client to integrate an app 
