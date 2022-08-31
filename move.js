@@ -64,6 +64,8 @@ function generateRandomName() {
     }
     countryOfOriginBtn()
 
+    
+
     function submitBtn() {
         console.log("Submit button")
         Element.addEventListner("click",submitBtn);
@@ -72,8 +74,10 @@ function generateRandomName() {
     }    
     submitBtn()
 }
-// for (let index = 0; index < array.length; index++) {
-//     const per = generateRandomName[index];
+var myStr = ""
+for (let i= 0; index < lengthInput; i++) {
+    var randomchar=selected.charAt(Math.floor(Math.random()*selected.length))
+    myStr = myStr + generateRandomName;
     
-// }
+}
 generateRandomName()
