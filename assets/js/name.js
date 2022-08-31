@@ -11,14 +11,15 @@ var originOfName = "https://gender-api.com/v2/country-of-origin.json"
 var apiKey = "d3ea58ecf9205655990f1cf8327310516bbb1a3f0c4eb64813cb698bbddafd09"
 var submitBtn = document.querySelector("#fetchBtn")
 var nameGen = document.querySelector("per")
-var male = document.querySelector("#answer")
-var female = document.querySelector("#answer")
-var neutral = document.querySelector("#answer")
+var male = document.querySelector("#male")
+var female = document.querySelector("#female")
+var nuetral = document.querySelector("#nuetral")
 
 //fetch female name APIs
 // fetch ("https://www.randomlists.com/data/names-female.json")
 // .then((Response) =>Response.json())
 // .then((data) =>console.log(data));
+
 
 // //fetch Male name APIs
 // fetch ('http://www.randomlists.com/data/names-male.json')
@@ -29,51 +30,68 @@ var neutral = document.querySelector("#answer")
 // .then((Response) =>Response.json())
 // .then((data) =>console.log(data));
 
-function generateRandomName() {
-    console.log("generate random name")
+function submitBtn(event) {
+    event.preventDefault();
+
+    var nameVal = searchVal.value;
+
+    genRanName(nameVal);
+
+}
+
+
+function genRanName() {
+    fetch(
+        "https://www.randomlists.com/data/names-female.json"
+    )
+    console.log()
+    .then(function(response){
+        return response.json();
+        console.log(response);
+    })
     //dropdown button confirms Type of name
 
-    //radio buttons confirm male, female, or neutral
-    function controlBtn() {
-        console.log("Control button")
-        if (male=== true) {
-            return (maleNameUrl);
-        }
-        if(female===true) {
-            return (femaleNameUrl);
-        }
-        if (neutral=== true) {
-            return {male: maleNameUrl, female: femaleNameUrl}
-        }
-        else {
-            window.alert("Please choose a gender")
-        }
+    // //radio buttons confirm male, female, or neutral
+    // function controlBtn() {
+    //     console.log("Control button")
+    //     if (male=== true) {
+    //         return (maleNameUrl);
+    //     }
+    //     if(female===true) {
+    //         return (femaleNameUrl);
+    //     }
+    //     if (neutral=== true) {
+    //         return {male: maleNameUrl, female: femaleNameUrl}
+    //     }
+    //     else {
+    //         // window.alert("Please choose a gender")
+    //     }
             
-    };
-    controlBtn()
-
-    function countryOfOriginBtn() {
-        console.log("Country of Origin button")
-        if (min=2, max=30){
-        return originOfName
-    }
-
-        else{
-        window.alert("Please choose a country")
-    }
-    }
-    countryOfOriginBtn()
-
-    function submitBtn() {
-        console.log("Submit button")
-        Element.addEventListner("click",submitBtn);
-        return window.alert("BUTTON WAS CLICKED")
-
-    }    
-    submitBtn()
 }
-// for (let index = 0; index < array.length; index++) {
-//     const per = generateRandomName[index];
-    
+//     controlBtn()
+
+//     function countryOfOriginBtn() {
+//         console.log("Country of Origin button")
+//         if (min=2, max=30){
+//         return originOfName
+//     }
+
+//         else{
+//         window.alert("Please choose a country")
+//     }
+//     }
+//     countryOfOriginBtn()
+
+//     function submitBtn() {
+//         console.log("Submit button")
+//         Element.addEventListner("click",submitBtn);
+//         return window.alert("BUTTON WAS CLICKED")
+
+//     }    
+//     submitBtn()
 // }
-generateRandomName()
+// // for (let index = 0; index < array.length; index++) {
+// //     const per = generateRandomName[index];
+    
+// // }
+// generateRandomName()
