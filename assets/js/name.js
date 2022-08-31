@@ -1,57 +1,64 @@
-var femaleNameUrl = "https://www.randomlists.com/data/names-female.json"
-var maleNameUrl =   "https://www.randomlists.com/data/names-male.json"
-//function for type of names
-var typeBtn = document.querySelector("#ser")
-//function for gender
-var controlBtn = document.querySelector("#control")
-//function for country of origin
-var countryOfOriginBtn = document.querySelector("#origin")
-//to do-need an API for Country of Origin
-var originOfName = "https://gender-api.com/v2/country-of-origin.json"
-var apiKey = "d3ea58ecf9205655990f1cf8327310516bbb1a3f0c4eb64813cb698bbddafd09"
-var submitBtn = document.querySelector("#fetchBtn")
-var nameGen = document.querySelector("per")
-var male = document.querySelector("#male")
-var female = document.querySelector("#female")
-var nuetral = document.querySelector("#nuetral")
+var submitBtn = document.getElementById("sbmt");
+var postN = document.querySelector("#nameG")
 
-//fetch female name APIs
-// fetch ("https://www.randomlists.com/data/names-female.json")
-// .then((Response) =>Response.json())
-// .then((data) =>console.log(data));
+function checkGenderValue() {
+    var selectedValue = ""
+    var radioButtons = document.getElementsByName("answer");
 
+    for (var i = 0; i < radioButtons.length; i++) {
+        if (radioButtons[i].checked) {
+            selectedValue = radioButtons[i].value;
+        }
+    }
 
-// //fetch Male name APIs
-// fetch ('http://www.randomlists.com/data/names-male.json')
-// .then((Response) =>Response.json())
-// .then((data) =>console.log(data));
-// //fetch country of origin API
-// fetch ('https://gender-api.com/v2/country-of-origin ')
-// .then((Response) =>Response.json())
-// .then((data) =>console.log(data));
+    console.log(selectedValue)
+    if(selectedValue == "male") {
+        generateRandomMaleNames()
+    } else if (selectedValue = "female") {
+        generateRandomFemaleNames()
+    } else {
+        generateRandomName()
+    }
+    .then()
+}
 
-function submitBtn(event) {
-    event.preventDefault();
+function generateRandomMaleNames() {
+    fetch('https://randomuser.me/api/?gender=male')
+        .then((Response) => Response.json())
+        .then((data) => {
+            var fullName = data.results[0].name.first + " " + data.results[0].name.last
+            console.log(fullName)
+            renderRandomName(fullName)
+        });
+}
 
-    var nameVal = searchVal.value;
+function generateRandomName() {
+    fetch('https://randomuser.me/api/')
+        .then((Response) => Response.json())
+        .then((data) => {
+            var fullName = data.results[0].name.first + " " + data.results[0].name.last
+            console.log(fullName)
+            renderRandomName(fullName)
+        });
+}
 
-    genRanName(nameVal);
+function generateRandomFemaleNames() {
+    //fetch female name APIs
+    fetch("https://randomuser.me/api/?gender=female")
+        .then((Response) => Response.json())
+        .then((data) =>{
+            var femName = data.results[0].name.first + " " + data.results[0].name.last
+            console.log(femName)
+            renderRandomName(femName)
+        });
+}
 
+function renderRandomName(fullName) {
+    var nameGeneratedH2 = document.getElementById("name-generated");
+    nameGeneratedH2.textContent = fullName
 }
 
 
-function genRanName() {
-    fetch(
-        "https://www.randomlists.com/data/names-female.json"
-    )
-    console.log()
-    .then(function(response){
-        return response.json();
-       
-    })
-    .then(function(data){
-        console.log(data);
 
-    });
-            
-}
+
+submitBtn.addEventListener("click", checkGenderValue)
