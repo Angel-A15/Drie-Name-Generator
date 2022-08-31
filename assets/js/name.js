@@ -1,4 +1,4 @@
-
+// variables
 var male = document.querySelector("#male")
 var female = document.querySelector("#female")
 var nuetral = document.querySelector("#nuetral")
@@ -14,7 +14,7 @@ var nuetral = document.querySelector("#nuetral")
 // //fetch country of origin API
 // fetch ('https://gender-api.com/v2/country-of-origin ')
 
-
+// will set trigger to retrieve data
 function submitBtn(event) {
     event.preventDefault();
 
@@ -24,7 +24,7 @@ function submitBtn(event) {
 
 }
 
-
+// will convert and retreive data
 function genRanName() {
     fetch(
         "https://www.randomlists.com/data/names-female.json"

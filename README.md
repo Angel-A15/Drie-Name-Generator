@@ -1,3 +1,5 @@
+# Drie-Name-Generator
+
 ## Project
 
 As a team of three developers, we recieved a request from a client to integrate an app 
@@ -22,15 +24,12 @@ such as:
   * Gender
   * Country
   
-
 * An interactive dropdown bar that allows users to select country
-
 * A responsive radio element that allows users to select gender
 
 ## Preview of Launched Page
 
 ![Web capture_31-8-2022_6534_angel-a15 github io](https://user-images.githubusercontent.com/106582411/187664756-7eba540e-cf43-45ac-8619-f629696ae953.jpeg)
-
 
 
 ## Link to Page
