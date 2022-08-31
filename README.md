@@ -22,7 +22,9 @@ such as:
   * Gender
   * Country
   
+
 * An interactive dropdown bar that allows users to select country
+
 * A responsive radio element that allows users to select gender
 
 ## Preview of Launched Page
@@ -30,6 +32,5 @@ such as:
 ![Web capture_31-8-2022_6534_angel-a15 github io](https://user-images.githubusercontent.com/106582411/187664756-7eba540e-cf43-45ac-8619-f629696ae953.jpeg)
 
 
+
 ## Link to Page
-=======
->>>>>>> a8f1e9a623022be6b59eb60d1ffb3b8f3c868b30
