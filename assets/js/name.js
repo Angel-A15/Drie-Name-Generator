@@ -47,51 +47,11 @@ function genRanName() {
     console.log()
     .then(function(response){
         return response.json();
-        console.log(response);
+       
     })
-    //dropdown button confirms Type of name
+    .then(function(data){
+        console.log(data);
 
-    // //radio buttons confirm male, female, or neutral
-    // function controlBtn() {
-    //     console.log("Control button")
-    //     if (male=== true) {
-    //         return (maleNameUrl);
-    //     }
-    //     if(female===true) {
-    //         return (femaleNameUrl);
-    //     }
-    //     if (neutral=== true) {
-    //         return {male: maleNameUrl, female: femaleNameUrl}
-    //     }
-    //     else {
-    //         // window.alert("Please choose a gender")
-    //     }
+    });
             
 }
-//     controlBtn()
-
-//     function countryOfOriginBtn() {
-//         console.log("Country of Origin button")
-//         if (min=2, max=30){
-//         return originOfName
-//     }
-
-//         else{
-//         window.alert("Please choose a country")
-//     }
-//     }
-//     countryOfOriginBtn()
-
-//     function submitBtn() {
-//         console.log("Submit button")
-//         Element.addEventListner("click",submitBtn);
-//         return window.alert("BUTTON WAS CLICKED")
-
-//     }    
-//     submitBtn()
-// }
-// // for (let index = 0; index < array.length; index++) {
-// //     const per = generateRandomName[index];
-    
-// // }
-// generateRandomName()
