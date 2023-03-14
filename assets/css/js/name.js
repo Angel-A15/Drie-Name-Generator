@@ -53,7 +53,7 @@ function generateRandomFemaleNames() {
 }
 
 function renderRandomName(fullName) {
-    var nameGeneratedH2 = document.getElementById("name-generated");
+    var nameGeneratedH2 = document.getElementById("genName");
     nameGeneratedH2.textContent = fullName
 }
 
