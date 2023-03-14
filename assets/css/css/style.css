@@ -16,8 +16,8 @@ main {
 
 /* styles containers that hold both gen-name and meaning*/
 .miniCard {
-    border-radius: 10px;
-    border: 5px solid black;
+    border-top: 4px;;
+    border: 15px solid black;
 }
 
 /* styles the container of entire submit form */
@@ -25,7 +25,7 @@ main {
     margin-right:70%;
     margin: 60px;
     word-spacing: 5px;
-    padding: 30px;
+    padding: 20px;
     max-width: 35%;
     margin-top: 80px;
     border-radius: 10px;
@@ -62,12 +62,26 @@ main {
 /* styles Meaning and Name Cards */
 .card-content{
     background-color: white;
-    border-radius:5px;
+    border:3px solid black;
+    /* border-radius: 0; */
 
 }
 
+/* positions gen name container */
+#name {
+    float: right;
+    flex: auto;
+}
+
+
+/* styles the text for gen name */
 #genName {
     display: flex;
     justify-content: center;
     font-size: larger;
+}
+
+/* positions meaning container */
+#meaning {
+    float: right;
 }

@@ -34,63 +34,63 @@
     <main>
 
         <!--will hold form to submit-->
-        <section id="userForm" class=" is-size-3 has-text-white has-background-info-dark">
-
-            <label for="Types" >Language Type :</label>
-            <select class="is-size-6 mt-5 mb-6 drop" name="Types" id="Types">
-                <option value="">Type</option>
-                <option value=""></option>
-            </select>
-
-
-            
-            
-            <div id="genRadio" class="mt-6 mb-6">
-
-                <h2 class="is-size-3">Gender :
-                    <div class="is-size-5 has-text-white">
-                        <label class="radio " id="male">
-                            <input type="radio" name="answer" value="male">
-                            Male
-                        </label>
-                    
-                        <label class="radio" id="nuetral">
-                            <input type="radio" name="answer" value="nuetral">
-                            Nuetral
-                        </label>
-                    
-                        <label class="radio" id="female">
-                            <input type="radio" name="answer" value="female">
-                            Female
-                        </label>
-                    </div>
-                </h2>
-                    
-            </div>
-            
-
-
-            <div class=" mb-6">
-                <label for="countries">Country of Origin :</label>
-                <select class="is-size-6 drop  mt-5" name="countires" id="countries">
-                    <option value="">Country</option>
+        <section id="userForm" class=" is-size-3 has-text-grey-darker has-background-info-dark">
+            <div class="has-background-white-ter" style="padding:22px;">
+                <label for="Types" >Language Type :</label>
+                <select class="is-size-6 mt-5 mb-6 drop" name="Types" id="Types">
+                    <option value="">Type</option>
                     <option value=""></option>
                 </select>
-            </div>
 
 
-            
-            <div class="fetchBtn field has-addons has-addons-right">
-                <input id="sbmt" class="button is-small is-active mt-5 icon is-right" type="button" value="Submit">
+                
+                
+                <div id="genRadio" class="mt-6 mb-6">
+
+                    <h2 class="is-size-3">Gender :
+                        <div class="is-size-5 has-text-grey-darker">
+                            <label class="radio " id="male">
+                                <input type="radio" name="answer" value="male">
+                                Male
+                            </label>
+                        
+                            <label class="radio" id="nuetral">
+                                <input type="radio" name="answer" value="nuetral">
+                                Nuetral
+                            </label>
+                        
+                            <label class="radio" id="female">
+                                <input type="radio" name="answer" value="female">
+                                Female
+                            </label>
+                        </div>
+                    </h2>
+                    
+                </div>
+                
+
+
+                <div class=" mb-6">
+                    <label for="countries">Country of Origin :</label>
+                    <select class="is-size-6 drop  mt-5" name="countires" id="countries">
+                        <option value="">Country</option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+
+                
+                <div class="fetchBtn field has-addons has-addons-right">
+                    <input id="sbmt" class="button is-small is-active mt-5 icon is-right" type="button" value="Submit">
+                </div>
             </div>
-            
         </section>
 
-        <!--Generated Name Card-->
-        <section class="miniCard columns" id="Name">
+        <section class="miniCard column is-one-third" id="name">
 
-            <div class="card has-background-info-dark column is-one-third">
-                <div class="card-header-title ">
+            <!--Generated Name Card-->
+            <div class="card has-background-info-dark " style="flex: auto;">
+                <div class="card-header-title " id="nameCardCol">
                     <h2 class="is-size-3 has-text-white">
                         Generated Name :
                     </h2>
@@ -106,7 +106,7 @@
         </section>
 
         <!--Name Meaning Card-->
-        <section id="Meaning" class="miniCard column is-one-third">
+        <section id="meaning" class="miniCard column is-one-third">
 
             <div class="card  has-background-info-dark">
 
