@@ -7,6 +7,11 @@ main {
     margin: 80px 0 50px 0;
 }
 
+nav {
+    background-image: url(/assets/images/name_gen_bkgrnd.jpg);
+    background-size: auto;
+
+}   
 
 /* styles the user form container */
 #uForm {
