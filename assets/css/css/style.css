@@ -4,23 +4,15 @@
 
 /* styles content below nav */
 main {
-    margin: 80px 0 0px 0;
-    height: 740px;
+    margin: 80px 0 50px 0;
 }
 
-/* styles containers that hold both gen-name and meaning*/
-.miniCard {
-
-    border: 0.5px solid black;
-    padding: 0;
-    border-radius: 3px;
-}
 
 /* styles the user form container */
 #uForm {
     border-radius: 10px;
     margin: 0 100px 0 100px;
-    max-width: 50%;
+    width: 600
 }
 
 /* styles content inside of the user submit form */
@@ -65,7 +57,7 @@ main {
 
 /* positions gen name container */
 #name {
-    float: right;
+    max-width: fit-content;
 
 }
 
@@ -79,12 +71,11 @@ main {
 
 /* positions meaning container */
 #meaning {
-    float: right;
+    margin-top: 70px;
+    width: 300px;
 }
 
 /* styles both gen mini cards */
 #bothMiniCards {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 70px;
+    margin-top: 50px;
 }
