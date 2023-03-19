@@ -8,8 +8,12 @@ main {
 }
 
 nav {
-    background-image: url(/assets/images/name_gen_bkgrnd.jpg);
-    background-size: auto;
+    /* background-image: url(/assets/images/name_gen_bkgrnd.jpg);
+    image-resolution:inherit;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    background-position: center; */
 
 }   
 
@@ -56,7 +60,6 @@ nav {
 /* styles Meaning and Name Cards */
 .card-content{
     background-color: white;
-    border:1px solid black;
 
 }
 
@@ -83,4 +86,10 @@ nav {
 /* styles both gen mini cards */
 #bothMiniCards {
     margin-top: 50px;
+}
+
+/* styles About us container */
+#aboutUs {
+    width: 60%;
+    
 }
