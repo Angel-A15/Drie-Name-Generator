@@ -103,7 +103,7 @@ nav {
 }
 
 #qaColumns {
-    display: table-row;
+    display: contents;
 }
 
 /* styles q&a text  */
@@ -116,3 +116,4 @@ nav {
 #navTitle {
     display: contents;
 }
+
