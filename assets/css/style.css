@@ -103,3 +103,9 @@ nav {
 #qaColumns {
     display: table-row;
 }
+
+/* styles q&a text  */
+#qaText {
+    width: 50%;
+    word-spacing: 3px;
+}
