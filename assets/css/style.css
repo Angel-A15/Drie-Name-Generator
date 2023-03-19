@@ -91,5 +91,11 @@ nav {
 /* styles About us container */
 #aboutUs {
     width: 60%;
-    
+    text-align: justify;
+
+}
+
+/* styles about us message */
+#abText {
+    text-indent: 60px;
 }
