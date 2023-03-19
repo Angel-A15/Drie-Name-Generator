@@ -99,3 +99,7 @@ nav {
 #abText {
     text-indent: 60px;
 }
+
+#qaColumns {
+    display: table-row;
+}
