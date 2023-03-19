@@ -2,7 +2,7 @@
 
 ## Project
 
-As a team of three developers, we recieved a request from a client to integrate an app 
+As a team of two developers, we recieved a request from a client to integrate an app 
 that will produce a name. Our client is family oriented and is expecting a baby
 soon, so this will help them and their significant other decide on baby names.
 
