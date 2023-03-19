@@ -46,7 +46,9 @@ nav {
 /* styles color of dropdown buttons */
 .drop {
     background-color: var(--btn-color);
-    border-radius:5px;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
 
 }
 
@@ -108,4 +110,9 @@ nav {
 #qaText {
     width: 50%;
     word-spacing: 3px;
+}
+
+/* styles title of page  */
+#navTitle {
+    display: contents;
 }
