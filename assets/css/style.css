@@ -5,17 +5,7 @@
 /* styles content below nav */
 main {
     margin: 80px 0 50px 0;
-}
-
-nav {
-    /* background-image: url(/assets/images/name_gen_bkgrnd.jpg);
-    image-resolution:inherit;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100%;
-    background-position: center; */
-
-}   
+}  
 
 /* styles the user form container */
 #uForm {
@@ -27,29 +17,6 @@ nav {
 /* styles content inside of the user submit form */
 #userForm {
     word-spacing: 5px;
-    padding: 20px;
-}
-
-/* styles radio content */
-.radio {
-    margin: 15px 0 0 80px;
-}
-
-/* styles "submit" button */
-#sbmt{
-    background-color: var(--btn-color);
-    width: auto;
-    height: auto;
-    border-radius: 4px;
-}
-
-/* styles color of dropdown buttons */
-.drop {
-    background-color: var(--btn-color);
-    width: auto;
-    height: auto;
-    border-radius: 4px;
-
 }
 
 /* styles navigation buttons */
@@ -59,61 +26,27 @@ nav {
     height:30px;
 }
 
-/* styles Meaning and Name Cards */
-.card-content{
-    background-color: white;
-
-}
-
-/* positions gen name container */
-#name {
-    max-width: fit-content;
-
-}
-
-
-/* styles the text for gen name */
-/* #genName {
-    display: flex;
-    justify-content: center;
-    font-size: larger;
-} */
-
-/* positions meaning container */
-#meaning {
-    margin-top: 70px;
-    width: 300px;
-}
-
-/* styles both gen mini cards */
-#bothMiniCards {
-    margin-top: 50px;
-}
-
-/* styles About us container */
-#aboutUs {
-    width: 60%;
-    text-align: justify;
-
-}
-
 /* styles about us message */
 #abText {
     text-indent: 60px;
 }
 
-#qaColumns {
-    display: contents;
-}
-
 /* styles q&a text  */
-#qaText {
-    width: 50%;
+.qaText {
     word-spacing: 3px;
 }
 
-/* styles title of page  */
+/* styles hyperlink to title of page  */
 #navTitle {
     display: contents;
 }
+
+/* Adds image to header  */
+nav {
+    background-image: url(/assets/images/icon_img2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+
+}   
 
