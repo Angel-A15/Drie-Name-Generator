@@ -34,18 +34,18 @@
 
         <div class="columns">
 
-            <div class="column is-two-thirds" style="margin:0 0 0 100px">
+            <div class="column is-two-thirds mb-6" >
 
                 <!-- Container for user from -->
-                <section id="uForm">
+                <section class="ml-6 mr-6 ">
 
                     <!--will hold form to submit-->
-                    <div id="userForm" class=" is-size-3 has-text-grey-darker has-background-info-dark">
+                    <div id="userForm" class=" p-4 is-size-2 has-text-grey-darker has-background-info-dark">
                         
-                        <div class="has-background-white-ter" style="padding:22px;">
+                        <div class="has-background-white-ter p-5" >
 
                             <label for="Types" >Language Type :</label>
-                            <select class="is-size-6 mt-5 mb-6 drop is-warning is-normal button" name="Types" id="Types">
+                            <select class="is-size-6 mt-5 mb-6 drop is-warning is-normal button" name="Types">
                                 <option value="enlish">English</option>
                                 <option value="spanish">Spanish</option>
                                 <option value="german">German</option>
@@ -54,10 +54,10 @@
                                 <option value="turkish">Turkish</option>
                                 <option value="persian">Persian</option>
                             </select>
-                            <div id="genRadio" class="mt-6 mb-6">
+                            <div  class="mt-6 mb-6">
 
-                                <h2 class="is-size-3">Gender :
-                                    <div class="is-size-5 has-text-grey-darker">
+                                <h2 class=" ">Gender :
+                                    <div class="is-size-4 has-text-grey-darker">
                                         <label class="radio " id="male">
                                             <input type="radio" name="answer" value="male">
                                             Male
@@ -75,13 +75,13 @@
                                     </div>
                                 </h2>
                                 
-                            </div>
+                            </div> hasasd
                             
 
 
                             <div class=" mb-6">
                                 <label for="countries">Country of Origin :</label>
-                                <select class="is-size-6 drop is-normal is-warning mt-5 button" name="countires" id="countries">
+                                <select class="is-size-6 drop is-normal is-warning mt-5 button" name="countires">
                                     <option value="america">America</option>
                                     <option value="german">German</option>
                                     <option value="persia">Persia</option>
@@ -107,53 +107,55 @@
             <div class="column">
 
                 <!-- Container for both mini cards -->
-                <section class="columns" id="bothMiniCards">
+                <section class="columns mt-6" >
 
                     <!--Generated Name Card-->
-                    <div class=" column" id="name">
+                    <div class=" column is-three-fifths mt-6 ml-4" id="na">
 
-                        <div class="card has-background-info-dark ">
+                        <div class="card has-background-info-dark">
                             
-                            <div class="card-header-title " id="nameCardCol">
+                            <div class="card-header-title ">
                                 <h2 class="is-size-3 has-text-white">
                                     Generated Name :
                                 </h2>
                             </div>
 
-                            <div class="card-content">
+                            <div class="card-content is-size-5 has-text-centered">
                                 <p id="genName"></p>
                             </div>
 
                             
                         </div>
 
+                        <!--Name Meaning Card-->
+
+                        <div class="card has-background-info-dark mt-6">
+                        
+                            <div class="card-header-title has-text-white is-size-3">
+                                <h2>Meaning :</h2>
+                            </div>
+                                    
+                            <div class="card-content is-size-5 has-text-centered">
+                                <P  id="genMeaning"></P>
+                            </div>
+                                    
+                        </div>
+                            
                     </div>
+
 
 
 
                 </section>
 
-                <!--Name Meaning Card-->
-                <section id="meaning" class=" column">
 
-                    <div class="card  has-background-info-dark">
-                
-                        <div class="card-header-title has-text-white is-size-3">
-                            <h2>Meaning :</h2>
-                        </div>
-                            
-                        <div class="card-content ">
-                            <P class="is-size-1" id="nameCardCol"></P>
-                        </div>
-                            
-                    </div>
-                    
-                </section>
 
             </div>
 
         </div>
+
     </main>
+
     <script src="./assets/js/name.js"></script>
 
 </body>

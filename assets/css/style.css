@@ -73,11 +73,11 @@ nav {
 
 
 /* styles the text for gen name */
-#genName {
+/* #genName {
     display: flex;
     justify-content: center;
     font-size: larger;
-}
+} */
 
 /* positions meaning container */
 #meaning {
