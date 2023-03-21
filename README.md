@@ -29,7 +29,7 @@ such as:
 
 ## Preview of Launched Page
 
-![Web capture_20-3-2023_7404_127 0 0 1](https://user-images.githubusercontent.com/106582411/226341515-7daef21c-a3ee-4b14-a822-f6fc772e4699.jpeg)
+![Web capture_21-3-2023_54758_127 0 0 1](https://user-images.githubusercontent.com/106582411/226584381-6d924ed0-05d7-41dc-9791-a0a1fdaf0f80.jpeg)
 
 
 ## Link to Page
