@@ -41,12 +41,12 @@ main {
     display: contents;
 }
 
-/* Adds image to header  */
-nav {
+/* Adds image to header- image will be decided later  */
+/* nav {
     background-image: url(/assets/images/icon_img2.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain; 
 
-}   
+}    */
 
